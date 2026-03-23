@@ -87,7 +87,7 @@
 $$X = [x_1, x_2, \dots, x_n]^T$$
 
 单个个体的逻辑是：
-$$\dot{x}_i = \sum a_{ij} (x_j - x_i)$$
+> dx_i/dt = Σ a_ij * (x_j - x_i)
 
 写成矩阵形式其实就是：
 $$\dot{X} = -(D - A) X = -L X$$
